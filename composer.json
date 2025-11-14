@@ -1,0 +1,49 @@
+{
+  "name": "zxf/wechat",
+  "description": "微信开发",
+  "type": "library",
+  "keywords": ["wechat", "weixin", "tools", "zxf" ,"laravel"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zxf",
+      "email": "zxf@example.com",
+      "homepage": "https://yoc.cn"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "zxf\\WeChat\\": "src/WeChat/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "zxf\\WeChat\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "zxf\\WeChat\\Providers\\WeChatServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "scripts": {
+    "post-autoload-dump": [
+    ]
+  }
+}
