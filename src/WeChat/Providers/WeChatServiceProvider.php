@@ -43,7 +43,7 @@ class WeChatServiceProvider extends ServiceProvider
         // 把config 文件夹类的配置文件 发布到 config 文件夹下
         $this->publishes([
             __DIR__.'/../../../config/' => config_path(''),
-        ], 'modules');
+        ], 'config');
 
     }
 
