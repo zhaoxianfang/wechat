@@ -2,6 +2,8 @@
 
 ![](https://img.shields.io/packagist/dt/zxf/wechat) ![](https://img.shields.io/github/stars/zhaoxianfang/wechat.svg) ![](https://img.shields.io/github/forks/zhaoxianfang/wechat.svg) ![](https://img.shields.io/github/tag/zhaoxianfang/wechat.svg) ![](https://img.shields.io/github/release/zhaoxianfang/wechat.svg) ![](https://img.shields.io/github/issues/zhaoxianfang/wechat.svg)
 
+提供的通用微信开发类库，还标记了微信开发类库的详细来源文档。
+
 ## 📦 安装
 
 ```bash
