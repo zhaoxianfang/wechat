@@ -14,7 +14,7 @@ composer require zxf/wechat
 ### Laravel
 发布配置
 ````php
-php artisan vendor:publish --provider="zxf\WeChat\Providers\WeChatServiceProvider"
+php artisan vendor:publish --tag=wechat-config
 ````
 
 ### 其他框架
